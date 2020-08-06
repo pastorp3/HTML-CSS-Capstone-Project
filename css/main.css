@@ -1,5 +1,6 @@
 * {
     font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
 }
 
 .bg-dark {
@@ -10,7 +11,7 @@
     color: #272A31;
 }
 
-. .bg-gray {
+.bg-gray {
     background-color: #D3D3D3;
 }
 
@@ -60,8 +61,6 @@
 }
 
 .bg-title {
-    /*background-image: url("https://cdn.icon-icons.com/icons2/37/PNG/64/climbing_sport_3666.png");*/
-    background-repeat: none repeat;
     margin-bottom: 60px;
     margin-top: 60px;
 }
@@ -90,6 +89,7 @@ hr {
 
 .section-title {
     font-size: 30px;
+    margin-top: 50px;
 }
 
 .grid-1 {
@@ -98,13 +98,89 @@ hr {
     grid-template-rows: 1fr;
     margin-left: 150px;
     margin-right: 150px;
+    margin-bottom: 50px;
 }
 
 .program-icon-title {
     font-size: 30px;
 }
 
-.program-text {
+.see-all-prog {
+    text-decoration: underline;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+
+.f1 {
+    width: 50%;
+    height: fit-content;
+}
+
+.f2 {
+    width: 50%;
+}
+
+.top-img {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    z-index: 1;
+}
+
+.bottom-img {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: -61px;
+    left: 36px;
+}
+
+.f1-in {
     width: fit-content;
     height: fit-content;
+}
+
+.text-speakers {
+    font-size: 10px;
+}
+
+.col-3 {
+    padding: 0 !important;
+}
+
+.g2 {
+    margin: 25px 150px 75px 150px;
+}
+
+.text-speakers {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.name-speaker {
+    font-size: 20px;
+}
+
+.tag-speaker {
+    font-size: 15px;
+}
+
+.txt-speak {
+    font-size: 12px;
+}
+
+.line-speaker {
+    width: 25%;
+}
+
+.partner_icon {
+    width: 150px;
+    height: 100px;
+    ;
+}
+
+.partner-align {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 50px;
 }
