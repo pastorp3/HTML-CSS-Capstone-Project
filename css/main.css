@@ -16,7 +16,7 @@
 }
 
 .text-grass {
-    color: #4cf14c;
+    color: #EC5242;
 }
 
 .nav-icon {
@@ -30,8 +30,7 @@
 }
 
 .nav-logo {
-    width: 8%;
-    height: 8%;
+    width: 7%;
 }
 
 .nav-2-2 {
@@ -57,12 +56,14 @@
     margin-left: 150px;
     font-size: 60px;
     font-weight: 700;
-    color: #4cf14c;
+    color: #EC5242;
 }
 
 .bg-title {
-    margin-bottom: 60px;
-    margin-top: 60px;
+    background-image: url("https://thebodysource.com/wp-content/uploads/2017/02/product-bg.png");
+    background-size: cover;
+    padding-bottom: 60px;
+    padding-top: 60px;
 }
 
 .margin-content-title {
@@ -83,7 +84,7 @@
 }
 
 hr {
-    background-color: #4cf14c;
+    background-color: #EC5242;
     width: 100px;
 }
 
@@ -183,4 +184,91 @@ hr {
     margin-left: 150px;
     margin-right: 150px;
     margin-bottom: 50px;
+}
+
+.nav-3 {
+    display: none;
+}
+
+.speak-2 {
+    display: none;
+}
+
+@media (max-width: 425px) {
+    .nav-1 {
+        display: none;
+    }
+    .nav-3 {
+        display: block;
+    }
+    .align-title {
+        margin-left: 20px;
+    }
+    .margin-content-title {
+        margin-left: 20px;
+    }
+    .grid-1 {
+        display: block;
+        margin: 0;
+    }
+    .g {
+        margin-top: 10px;
+    }
+    .g2 {
+        margin: 0 0 30px 0;
+    }
+    .top-img {
+        width: 100px;
+        height: 100px;
+        position: relative;
+        z-index: 1;
+    }
+    .bottom-img {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        top: 35px;
+        left: -12px;
+    }
+    .txt-speak {
+        font-size: 10px;
+    }
+    .f1-in {
+        padding-left: 15px;
+        align-content: baseline;
+    }
+    .partner-align {
+        margin-left: 150px;
+        margin-right: 150px;
+        margin-bottom: 50px;
+        margin: 0 0 50px 0;
+    }
+    .mtop-mobile {
+        margin-top: 10px;
+    }
+    .speak-2 {
+        display: block;
+    }
+    .speak-1 {
+        display: none;
+    }
+    .nav-logo {
+        width: 8%;
+    }
+    .subtitle-size {
+        font-size: 25px;
+    }
+    .align-title {
+        font-size: 30px;
+    }
+    .size-date {
+        font-size: 17px;
+    }
+    .size-place {
+        font-size: 15px;
+    }
+    .mobile-size {
+        font-size: 12px;
+        margin-right: 10px;
+    }
 }
