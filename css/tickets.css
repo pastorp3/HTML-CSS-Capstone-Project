@@ -28,7 +28,7 @@
 }
 
 .top-nav {
-    margin-right: 130px;
+    margin-right: 7%;
     font-size: 13px;
 }
 
@@ -42,8 +42,8 @@
 }
 
 .align-nav {
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
 .container-fluid {
@@ -72,9 +72,7 @@ hr {
     width: fit-content;
     height: fit-content;
     border-radius: 20px;
-    margin-left: 450px;
-    margin-top: 30px;
-    margin-bottom: 50px;
+    margin: auto;
 }
 
 .p-normal {
@@ -98,8 +96,8 @@ table {
 }
 
 .table-align {
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .size-price {
@@ -143,8 +141,8 @@ table {
 /* footer */
 
 .partner-align {
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 50px;
 }
 
@@ -153,15 +151,50 @@ table {
     height: 100px;
 }
 
+.fotter-logo {
+    width: 80px;
+    height: 80px;
+}
+
+@media (max-width: 1024px) {
+    .partner-align {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media (max-width: 768px) {
+    .top-nav {
+        margin-right: 10px;
+    }
+    .align-nav {
+        padding-left: 10px;
+        padding-right: 25px;
+    }
+    .nav-2-2 {
+        width: 3500px;
+    }
+    .nav-logo {
+        width: 26%;
+    }
+    .table-align {
+        margin: 0 10px 0 10px;
+        overflow-x: auto;
+    }
+    .partner-align {
+        margin: 0 0 30px 0;
+    }
+    .submit-align {
+        margin-top: 30px;
+    }
+}
+
 @media (max-width: 425px) {
     .nav-1 {
         display: none;
     }
     .nav-3 {
         display: block;
-    }
-    .step-1 {
-        margin: 0;
     }
     .table-align {
         margin: 30px 0 0 0;
