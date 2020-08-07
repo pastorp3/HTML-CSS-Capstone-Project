@@ -114,6 +114,7 @@ hr {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   grid-column-gap: 20px;
+  grid-row-gap: 20px;
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 50px;
