@@ -2,6 +2,7 @@
 # Climbing Global Summit 2020
 
 ![screenshot](./icons/screnshot.png)
+<br>
 Website created to advertise an event , conferences about the I.A
 original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
 
