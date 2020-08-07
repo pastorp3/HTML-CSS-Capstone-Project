@@ -10,6 +10,8 @@
 ## Live Demo
 
 [Live Demo](https://raw.githack.com/pastorp3/HTML-CSS-Capstone-Project/develop/main.html)
+Website created to advertise an event , conferences about the I.A
+original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
 
 ## Getting Started
 
@@ -35,7 +37,7 @@ Explore our site
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/pastorp3/HTML-CSS-Capstone-Project/issues).
 
 ## Show your support
 
