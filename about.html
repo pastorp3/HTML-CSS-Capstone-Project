@@ -16,7 +16,7 @@
     </head>
     <body class="container-fluid">
         <main>
-            <nav class="container-fluid"> 
+            <header class="container-fluid">
                 <div class=" nav-1 bg-dark text-right pr-3">
                     <div class="top-nav">
                         <img class="nav-icon mr-2 mt-1 mb-1" alt="twitter-icon" src="icons/Facebook_icon.png">
@@ -26,6 +26,8 @@
                         <span><a class="text-white mr-1" href="#">Longout</a></span>
                     </div>
                 </div>
+            </header>
+            <nav class="container-fluid">     
                 <div class="nav-1 container-fluid bg-white border-bottom ">
                     <div class="d-flex justify-content-between align-nav">
                         <a href="main.html"><img class="img-fluid nav-logo pt-1 pb-1" alt="main-logo" src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/International_Federation_of_Sport_Climbing_Logo.svg/1200px-International_Federation_of_Sport_Climbing_Logo.svg.png"></a>
@@ -36,10 +38,25 @@
                         </div>
                     </div>
                 </div>
-                <div class="nav-3">
-                    <div>
-                        <a href="#"><img alt="hamburger_icon" class="pl-3 pt-3" src="icons/hamburger_icon.png"></a>
-                    </div>
+                <div class=" nav-3 navbar navbar-light light-blue lighten-4">
+                    <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+                        aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+                        <img alt="hamburger_icon"  src="icons/hamburger_icon.png">
+                    </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link text-origin" href="main.html">Home </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-origin" href="about.html">About<span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-origin" href="tickets.html">Tickets</a>
+                                </li>
+                            </ul>
+                        </div>
+                                    
                 </div>
             </nav>
 
@@ -126,7 +143,7 @@
                 <footer class="partner-align mt-3">
                 <div class="d-flex justify-content-between">
                     <img class="img-fluid nav-logo pt-1 pb-1" alt="main-logo" src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/International_Federation_of_Sport_Climbing_Logo.svg/1200px-International_Federation_of_Sport_Climbing_Logo.svg.png">
-                    <span class="text-origin pt-2">2020 All rigths reserved ©</span>
+                    <h6 class="text-origin pt-2">2020 All rigths reserved ©</h6>
                 </div>
             </footer>
         </main>

@@ -16,7 +16,7 @@
     </head>
     <body class="container-fluid">
         <main>
-            <nav class="container-fluid"> 
+            <header class="container-fluid">
                 <div class=" nav-1 bg-dark text-right pr-3">
                     <div class="top-nav">
                         <img class="nav-icon mr-2 mt-1 mb-1" alt="twitter-icon" src="icons/Facebook_icon.png">
@@ -26,6 +26,8 @@
                         <span><a class="text-white mr-1" href="#">Longout</a></span>
                     </div>
                 </div>
+            </header>
+            <nav class="container-fluid">     
                 <div class="nav-1 container-fluid bg-white border-bottom ">
                     <div class="d-flex justify-content-between align-nav">
                         <a href="main.html"><img class="img-fluid nav-logo pt-1 pb-1" alt="main-logo" src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/International_Federation_of_Sport_Climbing_Logo.svg/1200px-International_Federation_of_Sport_Climbing_Logo.svg.png"></a>
@@ -36,10 +38,25 @@
                         </div>
                     </div>
                 </div>
-                <div class="nav-3">
-                    <div>
-                        <a href="#"><img alt="hamburger_icon" class="pl-3 pt-3" src="icons/hamburger_icon.png"></a>
-                    </div>
+                <div class=" nav-3 navbar navbar-light light-blue lighten-4">
+                    <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+                        aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+                        <img alt="hamburger_icon"  src="icons/hamburger_icon.png">
+                    </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link text-origin" href="main.html">Home </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-origin" href="about.html">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-origin" href="tickets.html">Tickets<span class="sr-only">(current)</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                                    
                 </div>
             </nav>
             <div class="container-fluid text-center">
@@ -49,12 +66,12 @@
                         <br>
                         <hr>
                     </div>
-                    <div class="d-md-flex d-sm-block step-1 bg-light pt-2  pr-2 pl-2 pb-2 mb-3 border">
+                    <div class="d-md-flex d-sm-block step-1 bg-light pt-2  pr-2 pl-2 pb-2  border">
                         <span class="mr-2 text-grass font-weight-bold">STEP 1</span><br>
                         <span class="text-origin">Please select the day when you want to join Climbing Global Summit 2020</span>
 
                     </div>
-                    <div class="table-align">
+                    <div class="table-align ">
                         <table class="text-center text-origin">
                             <thead>
                                 <tr class="bg-light">
@@ -123,7 +140,7 @@
                         <span class="mr-2 text-grass font-weight-bold">STEP 2</span><br>
                         <span class="text-origin">Please select your lunch for registered day. There will be no futher coasts for the lunch</span>
                     </div>
-                    <div class="table-align">
+                    <div class=" align-menu">
                         <div class="menu-1 bg-light border">
                             <span class="manu-title font-weight-bold">Day 1</span>
                         </div>
@@ -153,7 +170,7 @@
                             </div>
                         </div>
                     </div>
-                     <div class="table-align menu-align">
+                     <div class=" menu-align align-menu">
                         <div class="menu-1 bg-light border">
                             <span class="manu-title font-weight-bold">Day 2</span>
                         </div>
@@ -214,7 +231,7 @@
                 <footer class="partner-align mt-3">
                 <div class="d-flex justify-content-between">
                     <img class="img-fluid fotter-logo pt-1 pb-1" alt="main-logo" src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/International_Federation_of_Sport_Climbing_Logo.svg/1200px-International_Federation_of_Sport_Climbing_Logo.svg.png">
-                    <span class="text-origin pt-2">2020 All rigths reserved ©</span>
+                    <h6 class="text-origin pt-2">2020 All rigths reserved ©</h6>
                 </div>
            
             </footer>
