@@ -1,263 +1,282 @@
 * {
-    font-family: 'Lato', sans-serif;
-    overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
 }
 
 .bg-dark {
-    background-color: #272a31;
+  background-color: #272a31;
 }
 
 .text-origin {
-    color: #272a31;
+  color: #272a31;
 }
 
 .bg-gray {
-    background-color: #d3d3d3;
+  background-color: #d3d3d3;
 }
 
 .text-grass {
-    color: #ec5242;
+  color: #ec5242;
 }
-
 
 /* navbar */
 
 .nav-icon {
-    width: 20px;
-    height: 20px;
+  width: 20px;
+  height: 20px;
 }
 
 .top-nav {
-    margin-right: 7%;
-    font-size: 13px;
+  margin-right: 7%;
+  font-size: 13px;
 }
 
 .nav-logo {
-    width: 7%;
+  width: 7%;
 }
 
 .nav-2-2 {
-    padding: 15px 0 15px 0;
-    width: 700px;
+  padding: 15px 0 15px 0;
+  width: 700px;
 }
 
 .align-nav {
-    padding-left: 8%;
-    padding-right: 8%;
+  padding-left: 8%;
+  padding-right: 8%;
 }
 
 #container-fluid {
-    padding-left: 0;
-    padding-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 #nav-3 {
-    display: none;
+  display: none;
 }
-
 
 /* first section */
 
 .section-title {
-    font-size: 30px;
-    margin-top: 50px;
+  font-size: 30px;
+  margin-top: 50px;
 }
 
 hr {
-    background-color: #ec5242;
-    width: 100px;
+  background-color: #ec5242;
+  width: 100px;
 }
 
 .step-1 {
-    width: fit-content;
-    height: fit-content;
-    border-radius: 20px;
-    margin: auto;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 20px;
+  margin: auto;
 }
 
 .p-normal {
-    padding: 20px 20px 10px 20px;
-    border: 1px solid #d3d3d3;
+  padding: 20px 20px 10px 20px;
+  border: 1px solid #d3d3d3;
 }
 
 .p-big {
-    padding: 10px 50px 10px 50px;
-    border: 1px solid #d3d3d3;
+  padding: 10px 50px 10px 50px;
+  border: 1px solid #d3d3d3;
 }
 
 .p-bigger {
-    padding: 30px 30px 30px 30px;
-    border: 1px solid #d3d3d3;
+  padding: 30px 30px 30px 30px;
+  border: 1px solid #d3d3d3;
 }
 
 table {
-    border: 5px solid #ec5242;
-    width: 100%;
+  border: 5px solid #ec5242;
+  width: 100%;
 }
 
 .table-align {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 50px;
 }
 
 .size-price {
-    font-size: 25px;
-    margin-bottom: 5px;
+  font-size: 25px;
+  margin-bottom: 5px;
 }
 
 .menu-1 {
-    width: 100%;
-    height: fit-content;
-    overflow: hidden;
-    padding: 10px 0 10px 0;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+  padding: 10px 0 10px 0;
 }
 
 .manu-title {
-    padding-top: 20px;
-    padding-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .menu-pad {
-    padding: 30px 50px 30px 50px;
+  padding: 30px 50px 30px 50px;
 }
 
 .submit-bttn {
-    padding: 10px 30px 10px 30px;
-    color: white;
-    background-color: #ec5242;
-    border: 1px solid #ec5242;
+  padding: 10px 30px 10px 30px;
+  color: white;
+  background-color: #ec5242;
+  border: 1px solid #ec5242;
 }
 
 .submit-align {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
-
 
 /* footer */
 
 .partner-align {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 50px;
 }
 
 .partner_icon {
-    width: 150px;
-    height: 100px;
+  width: 150px;
+  height: 100px;
 }
 
 .fotter-logo {
-    width: 80px;
-    height: 80px;
+  width: 80px;
+  height: 80px;
 }
 
 .fa-1x {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .navbar-toggler.toggler-example {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .align-menu {
-    margin: 30px 10% 30px 10%;
+  margin: 30px 10% 30px 10%;
 }
 
 @media (max-width: 1024px) {
-    .partner-align {
-        margin-left: 5%;
-        margin-right: 5%;
-    }
+  .partner-align {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 }
 
 @media (max-width: 768px) {
-    .top-nav {
-        margin-right: 10px;
-    }
-    .align-nav {
-        padding-left: 10px;
-        padding-right: 25px;
-    }
-    .nav-2-2 {
-        width: 250%;
-    }
-    .nav-logo {
-        width: 26%;
-    }
-    .table-align {
-        margin: 30px 10px 0 10px;
-        overflow-x: auto;
-    }
-    .partner-align {
-        margin: 0 0 30px 0;
-    }
-    .submit-align {
-        margin-top: 30px;
-    }
-    .align-menu {
-        margin: 30px 10px 30px 10px;
-    }
+  .top-nav {
+    margin-right: 10px;
+  }
+
+  .align-nav {
+    padding-left: 10px;
+    padding-right: 25px;
+  }
+
+  .nav-2-2 {
+    width: 250%;
+  }
+
+  .nav-logo {
+    width: 26%;
+  }
+
+  .table-align {
+    margin: 30px 10px 0 10px;
+    overflow-x: auto;
+  }
+
+  .partner-align {
+    margin: 0 0 30px 0;
+  }
+
+  .submit-align {
+    margin-top: 30px;
+  }
+
+  .align-menu {
+    margin: 30px 10px 30px 10px;
+  }
 }
 
 @media (min-width: 426px) and (max-width: 589px) {
-    .p-normal {
-        padding: 1%;
-        border: 1px solid #d3d3d3;
-    }
-    .p-bigger {
-        padding: 1%;
-    }
-    .p-big {
-        padding: 1%;
-    }
-    .size-price {
-        font-size: 13px;
-    }
-    .step-1 {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    .align-menu {
-        margin: 30px 10px 30px 10px;
-    }
+  .p-normal {
+    padding: 1%;
+    border: 1px solid #d3d3d3;
+  }
+
+  .p-bigger {
+    padding: 1%;
+  }
+
+  .p-big {
+    padding: 1%;
+  }
+
+  .size-price {
+    font-size: 13px;
+  }
+
+  .step-1 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .align-menu {
+    margin: 30px 10px 30px 10px;
+  }
 }
 
 @media (max-width: 425px) {
-    .nav-1 {
-        display: none;
-    }
-    #nav-3 {
-        display: block;
-    }
-    .table-align {
-        margin: 30px 0 0 0;
-        overflow-x: auto;
-    }
-    .submit-align {
-        margin-top: 30px;
-    }
-    .partner-align {
-        margin: 0 0 50px 0;
-    }
-    .p-normal {
-        padding: 0;
-        border: 1px solid #d3d3d3;
-    }
-    .p-bigger {
-        padding: 0;
-    }
-    .p-big {
-        padding: 0;
-    }
-    .size-price {
-        font-size: 13px;
-    }
-    .step-1 {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    .align-menu {
-        margin: 30px 10px 30px 10px;
-    }
+  .nav-1 {
+    display: none;
+  }
+
+  #nav-3 {
+    display: block;
+  }
+
+  .table-align {
+    margin: 30px 0 0 0;
+    overflow-x: auto;
+  }
+
+  .submit-align {
+    margin-top: 30px;
+  }
+
+  .partner-align {
+    margin: 0 0 50px 0;
+  }
+
+  .p-normal {
+    padding: 0;
+    border: 1px solid #d3d3d3;
+  }
+
+  .p-bigger {
+    padding: 0;
+  }
+
+  .p-big {
+    padding: 0;
+  }
+
+  .size-price {
+    font-size: 13px;
+  }
+
+  .step-1 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .align-menu {
+    margin: 30px 10px 30px 10px;
+  }
 }
